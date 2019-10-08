@@ -1,0 +1,101 @@
+body {
+
+}
+a {
+	text-decoration: none;
+}
+.Taal:focus {
+	color: inherit;
+}
+.Taal:hover {
+	text-decoration: underline;
+}
+.bottombar a {
+	padding: 10px;
+	color: inherit;
+	text-decoration: none;
+}
+.topright a {
+	padding: 10px;
+	color: inherit;
+	text-decoration: none;
+}
+.google {
+	margin-top: 11%;
+	margin-left: 40%;
+}
+.google2 {
+	margin-left: 33%;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+	width: 500px;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 37px;
+	margin-bottom: 15px;
+	display: flex;
+	background-image: url("searchbar3.png");
+	padding-left: 40px;
+}
+.google2:hover {
+	box-shadow: 3px 3px 3px 3px #ccc; 
+}
+.google2:focus {
+	outline: none;
+	box-shadow: 3px 3px 3px 3px #ccc;
+}
+.buttons {
+	height: 36px;
+	margin: 11px 4px;
+	padding: 0px 16px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	box-shadow: 
+}
+.buttons:hover {
+	box-shadow: 3px 3px 3px 3px #ccc;
+}
+.bottombar {
+	float: bottom;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	display: block;
+	padding-left: 27px;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	font-size: 13px;
+}
+.bottombar a:hover {
+	text-decoration: underline;
+}
+.bottomright {
+	float: inline-start;
+}
+.bottomright2 {
+	float: inline-start;
+}
+.rmargin {
+	margin-right: 62%;
+}
+.topright {
+	padding-top: 10px;
+	float: right;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.skrt {
+	margin-left: 42.6%;
+	height: 40px;
+	width: 600px;
+	border-style: none;
+	font-size: 20px;
+}
+.skrt:focus {
+	border-style: none;
+	border-color: inherit;
+	outline: none;
+}
